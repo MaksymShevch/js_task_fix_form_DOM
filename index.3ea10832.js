@@ -1,0 +1,2 @@
+function e(e){for(var t=e.split(""),l=0;l<t.length;l++)t[l].toUpperCase()===t[l]&&(t[l]=" "+t[l]);return t[0].toUpperCase()+t.join("").slice(1)}document.querySelectorAll("form input").forEach(function(t){var l=document.createElement("label");l.className="field-label",l.htmlFor=t.id,l.textContent=e(t.name),t.before(l),t.setAttribute("placeholder",e(t.name))});
+//# sourceMappingURL=index.3ea10832.js.map
